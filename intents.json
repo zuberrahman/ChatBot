@@ -1,0 +1,268 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day"
+      ],
+      "responses": [
+        "Hey!",
+        "Hello, Nice to meet you!",
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon again."
+      ]
+    },
+    {
+      "tag": "name",
+      "patterns": ["What is you name?","What can I call you?","Your name is?","What's your name?","What do I call you?"],
+      "responses": [
+        "My name is Stein",
+        "You can call me  Stein",
+        "I'm  Stein, a bot for all your needs!"
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thanks a lot!"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure","No Worries!"]
+    },
+    {
+      "tag": "doubts",
+      "patterns": [
+        "I have a doubt",
+        "Can you help me",
+        "I have a query",
+        ""
+      ],
+      "responses": [
+        "Sure! Please choose the specific domain",
+        "Choose the option under which your query comes",
+        "Kindly tell me what issue are you facing?"
+      ]
+    },
+    {
+      "tag": "Events",
+      "patterns": [
+        "When does the registration for the event start?",
+        "Is the event paid or unpaid?",
+        "Last date to register?",
+        "What is the event about?"
+      ],
+      "responses": [
+        "All the details related to the event is shared in the link below: https://www.aicte-india.org/sites/default/files/FAQs%20for%20Approval%20Process_0.pdf "
+      ]
+    },
+    {
+      "tag": "Duration",
+      "patterns": [
+        "How long will the event be?",
+        "What's the duration of the event?",
+        "From when will the event take place?"
+      ],
+      "responses": [
+        "All the details related to the event is shared in the link below: https://www.aicte-india.org/sites/default/files/FAQs%20for%20Approval%20Process_0.pdf "
+      ]
+    },
+    {
+      "tag": "Confirmation",
+      "patterns": [
+        "Has my seat been confirmed?",
+        "When will I get the confirmation email?",
+        "How long does it take for the confirmation email?",
+        "Will the confirmation be sent to my mail or phone?"
+      ],
+      "responses": [
+        "Kindly Enter your email id or phone number that's mentioned in the form ?"
+      ]
+    },
+    {
+      "tag": "payment",
+      "patterns": [
+        "Is this a paid event?",
+        "Do I need to pay?",
+        "How much should i pay?",
+        "When do I pay?",
+        "How will I know if my payment is successful?"
+      ],
+      "responses": [
+        "For more details, refer to the link given below: https://www.aicte-india.org/sites/default/files/FAQs%20for%20Approval%20Process_0.pdf ",
+        "For further queries please refer to the brochure."
+      ]
+    },
+
+    {
+      "tag": "hours",
+      "patterns": [ "What hours are you open?", "What are your hours?", "When are you open?", "When is the time to contact ?", "At what time do you provide services ?" ],
+      "responses": [ "We're open every day from 9AM to 9PM", "Our working hours are 9AM to 9PM every day" ]
+  },
+  {
+      "tag": "location",
+      "patterns": [ "What is your location?", "Where are you located?", "What is your address?", "Where is your company situated?", "How can we contact you ?", "How can I contact you?" ],
+      "responses": [ "We are on BH-5, LPU", "Our company is situated in BH-5, LPU", "We work from BH-5 LPU", "Our location is BH-5 LPU"]
+  },
+  {
+      "tag": "payments",
+      "patterns": [ "Do you take credit cards?", "Do you accept Mastercard?", "Are you cash only?", "Which credit cards do you accept?" ],
+      "responses": [ "We accept VISA, Mastercard and AMEX", "We accept most major credit cards" ]
+  },
+
+
+  {
+    "tag": "AI",
+    "patterns": ["  What is AI?"],
+    "responses": [" Artificial Intelligence is the branch of engineering and science devoted to constructing machines that think.", " AI is the field of science which concerns itself with building hardware and software that replicates the functions of the human mind."],
+    "context": [""]
+},
+{"tag": "IT",
+    "patterns": "What is Income-tax?",
+    "responses": "It is a tax levied by the Government of India on the income of every person. The provisions governing the Income-tax are covered in the Income-tax Act, 1961."
+  },
+  {"tag": "framework",
+    "patterns": "Administrative framework of Income-tax?",
+    "responses": "The revenue functions of the Government of India are managed by the Ministry of Finance. "
+  },
+  {"tag": "Period",
+    "patterns": "Period for which a person’s income is taken into account for the purpose of Income-tax?",
+    "responses": "The year under the Income-tax Law is the period starting from 1st April and ending on 31st March of next calendar year.  "
+  },
+  {"tag": "Pay",
+    "patterns": "Who is supposed to pay Income-tax?",
+    "responses": "Income-tax is to be paid by every person. The term 'person' as defined under the Income-tax Act under section 2(3) covers in its ambit natural as well as artificial persons. "
+  },
+  {"tag": "collect",
+    "patterns": "\nHow does the Government collect Income-tax?",
+    "responses": "Taxes are collected by the Government through three means: a) voluntary payment by taxpayers into various designated Banks."
+  },
+  {"tag": "rates",
+    "patterns": "What are the applicable tax rates?",
+    "responses": "The rates of Income-tax and corporate taxes are available in the Finance Act passed by the Parliament every year."
+  },
+  {"tag": "challan",
+    "patterns": "In the Challan terms like Income-tax on companies & Income-tax other than companies.",
+    "responses": "The tax that is to be paid by the companies on their income is called as corporate tax. Tax paid by non-corporate assessees is called as Income-tax"
+  },
+  {"tag": "advance",
+    "patterns": "How is advance tax calculated and paid?",
+    "responses": "Advance tax is to be calculated on the basis of expected tax liability of the year."
+  },
+  {"tag": "assessment",
+    "patterns": "What is tax on regular assessment and how is it paid?",
+    "responses": "Under the Income-tax Act, every person has the responsibility to correctly compute and pay his due taxes. The tax on regular assessment-400 has to be paid within 30 days of receipt of the notice of demand ."
+  },
+  {"tag": "filling",
+    "patterns": "Precautions while filling-up the tax payment challan?\n",
+    "responses": "Head of payment, i.e., Corporation Tax/Income-tax (other than companies)\nAmount and mode of payment of tax\n Type of payment [i.e., Advance tax/Self assessment tax/Tax on regular assessment/Tax on Dividend/Tax on distributed Income to Unit holders/Surtax]\n Assessment year"
+  },
+  {"tag": "Banker",
+    "patterns": "proof of payment from the Banker to whom I have submitted the challan?",
+    "responses": "The counter-foil of the Income-tax Challan filled by taxpayers, should be stamped and returned by the bank."
+  },
+  {"tag": "received",
+    "patterns": "How can I know that the Government has received the amount deposited by me as taxes in the bank?",
+    "responses": "The NSDL website [http://www.tin-nsdl.com] provides online services called as Challan Status Enquiry."
+  },
+  {"tag": "website",
+    "patterns": "What should I do if my tax payment particulars are not found against my name in the website?",
+    "responses": "To rectify these errors you may request the deductor:\n\n    to file a TDS/TCS statement if it has not been filed;\n    to rectify the PAN using a PAN correction statement in the TDS/TCS statement that has been already uploaded if it has made an error in the PAN quoted;\n    to furnish a correction statement if the deductor had filed a TDS/TCS statement and had inadvertently missed providing your details or you had not given your PAN to him before he filed the TDS/TCS return;"
+  },
+  {"tag": "response",
+    "patterns": "Is my responsibility under the Income-tax Act over once taxes are paid?",
+    "responses": "No, you are thereafter responsible for ensuring that the tax credits are available in your tax credit statement and TDS/TCS certificates received by you"
+  },
+  {"tag": "Officer",
+    "patterns": "Assessing Officer?",
+    "responses": "He/She is an officer of the Income-tax Department who has been given jurisdiction over a particular geographical area in a city/town or over a class of persons."
+  },
+  {"tag": "con",
+    "patterns": " What constitutes income?",
+    "responses": "Under the Income-tax Law, the word income has a very broad and inclusive meaning. In case of a salaried person all that is received from an employer in cash, kind or as a facility is considered as an income."
+  },
+  {"tag": "exempt",
+    "patterns": ["exempt income?\n","Taxable Income"],
+    "responses": "An exempt income is not charged to tax, i.e., Income-tax Law specifically grants exemption from tax to such income. "
+  },
+  {"tag": "receipt",
+    "patterns": "What is revenue receipt and capital receipt?",
+    "responses": "Revenue receipts are recurring in nature like salary, profit from business, interest income, etc.\n\nCapital receipts are generally of isolated nature like receipt on account of sale of residential building, personal jewellery, etc. ​"
+  },
+  {"tag": "charged",
+    "patterns": "Are all receipts charged to tax?\n",
+    "responses": "The general rule under the Income-tax Law is that all revenue receipts are taxable, unless they are specifically granted exemption from tax"
+  },
+  {"tag": "proof",
+    "patterns": "proof of earnings?",
+    "responses": "For every source of income you have to maintain proof of earning and the records specified under the Income-tax Act."
+  },
+  {"tag": "prize",
+    "patterns": "If I win a lottery or prize money in a competition, am I required to pay Income-tax on it?",
+    "responses": "Yes, such winnings are liable to flat rate of tax at 30% without any basic exemption limit."
+  },
+  {"tag": "abroad",
+    "patterns": "If my income is taxed in India as well as abroad, relief on double taxation?\n",
+    "responses": "Yes, you can claim relief in respect of income which is charged to tax both in India as well as abroad."
+  },
+  {"tag": "RCM",
+    "patterns": "Does aggregate turnover include value of inward supplies received on which RCM is payable?",
+    "responses": " Aggregate turnover does not include value of inward supplies on which tax is payable on reverse charge basis."
+  },
+  {"tag": "liable",
+    "patterns": "Inter State supply from one state. Is it liable for registration? ",
+    "responses": "He is liable to register if the aggregate turnover (all India) is more than 20 lacs (Rs. 10 lacs in Special Category States) or if he is engaged in inter-State supplies."
+  },
+  {"tag": "GSTIN",
+    "patterns": "Can we use provisional GSTIN or do we get new GSTIN?",
+    "responses": "Provisional GSTIN (PID) should be converted into final GSTIN within 90 days. Yes, provisional GSTIN can be used till final GSTIN is issued. PID & final GSTIN would be same. "
+  },
+  {"tag": "VAT",
+    "patterns": "Whether trader of country liquor is required to migrate to GST from VAT as liquor is out of GST law? ",
+    "responses": "If the person is involved in 100% supply of goods which are not liable for GST, then no registration is required. "
+  },
+  {"tag": "supply",
+    "patterns": "Not liable to tax as mentioned u/s 23 of CGST means nil rated supply? ",
+    "responses": "Not liable to tax means supplies which is not leviable to tax under the CGST/SGST/IGST Act. Please refer to definition under Section 2(78) of the CGST Act. "
+  },
+
+  {"tag": "SEZ",
+    "patterns": "If there are two SEZ units within same state, whether two registrations are required? ",
+    "responses": "SEZs under same PAN in a state require one registration. Please see proviso to rule 8(1) of CGST Rules. "
+  },
+  {"tag": "advocate",
+    "patterns": "Is an advocate providing interstate supply chargeable for registration? ",
+    "responses": "Exemption from registration has been provided to such suppliers who are making only those supplies on which recipient is liable to discharge GST under RCM. "
+  },
+  {"tag": "state",
+    "patterns": "When is registration in other state required?",
+    "responses": "If services are being provided from Nasik then registration is required to be taken only in Maharashtra and IGST to be paid on inter-state supplies. "
+  },
+  {"tag": "migrated",
+    "patterns": "I have migrated under GST but want to register as ISD. Can I can apply now & what is the procedure? ",
+    "responses": "A separate & new registration is required for ISD."
+  }
+
+    
+    
+    
+    
+    
+    
+    
+    
+
+
+  
+  ]
+}
